@@ -62,6 +62,11 @@ group :development, :test do
   gem "factory_bot_rails"
 end
 
+group :development do
+  gem "better_errors"
+  gem "binding_of_caller"
+end
+
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
 gem 'simple_form'
