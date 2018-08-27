@@ -9,7 +9,7 @@ require 'rspec/rails'
 # Add test helpers for devise controller
 RSpec.configure do |config|
   config.include Devise::Test::ControllerHelpers, type: :controller
-  config.include Devise::Test::ControllerHelpers, type: :view
+  include ActionDispatch::TestProcess
 end
 #
 # Requires supporting ruby files with custom matchers and macros, etc, in
