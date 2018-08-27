@@ -78,14 +78,10 @@ end
 gem 'jquery-rails'
 gem 'simple_form'
 gem 'devise'
-<<<<<<< HEAD
 gem 'carrierwave', '~> 1.0'
 gem 'figaro'
 gem 'fog-aws'
 gem 'font-awesome-rails'
-=======
-
 gem 'carrierwave', '~> 1.0'
 gem 'figaro'
 gem 'fog-aws'
->>>>>>> 7d26f0ff82efe5f762f7da8e65b7760fdc6c1898

@@ -10,13 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20180821171434) do
-=======
-ActiveRecord::Schema.define(version: 20180818204959) do
->>>>>>> 7d26f0ff82efe5f762f7da8e65b7760fdc6c1898
-
-  # These are extensions that must be enabled in order to support this database
+# These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "comments", force: :cascade do |t|

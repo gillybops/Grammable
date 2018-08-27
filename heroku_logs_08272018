@@ -1,0 +1,100 @@
+2018-08-26T16:41:40.175649+00:00 app[web.1]: I, [2018-08-26T16:41:40.175565 #4]  INFO -- : [cfb1a2dc-1036-4c78-9dea-0b9cc2a97914] Completed 200 OK in 183ms (Views: 35.1ms | ActiveRecord: 74.2ms)
+2018-08-26T16:41:40.180152+00:00 heroku[router]: at=info method=GET path="/users/sign_in" host=grammable-gillian.herokuapp.com request_id=cfb1a2dc-1036-4c78-9dea-0b9cc2a97914 fwd="68.198.15.83" dyno=web.1 connect=0ms service=190ms status=200 bytes=2595 protocol=https
+2018-08-26T16:41:41.585564+00:00 heroku[router]: at=info method=GET path="/" host=grammable-gillian.herokuapp.com request_id=01874257-920b-4124-8da0-f9c1ac695ac6 fwd="209.87.212.212" dyno=web.1 connect=1ms service=9ms status=200 bytes=1435 protocol=https
+2018-08-26T16:41:41.580519+00:00 app[web.1]: I, [2018-08-26T16:41:41.580417 #4]  INFO -- : [01874257-920b-4124-8da0-f9c1ac695ac6] Started GET "/" for 209.87.212.212 at 2018-08-26 16:41:41 +0000
+2018-08-26T16:41:41.581572+00:00 app[web.1]: I, [2018-08-26T16:41:41.581502 #4]  INFO -- : [01874257-920b-4124-8da0-f9c1ac695ac6] Processing by GramsController#index as HTML
+2018-08-26T16:41:41.583117+00:00 app[web.1]: I, [2018-08-26T16:41:41.583035 #4]  INFO -- : [01874257-920b-4124-8da0-f9c1ac695ac6]   Rendering grams/index.html.erb within layouts/application
+2018-08-26T16:41:41.583310+00:00 app[web.1]: I, [2018-08-26T16:41:41.583237 #4]  INFO -- : [01874257-920b-4124-8da0-f9c1ac695ac6]   Rendered grams/index.html.erb within layouts/application (0.1ms)
+2018-08-26T16:41:41.584912+00:00 app[web.1]: I, [2018-08-26T16:41:41.584827 #4]  INFO -- : [01874257-920b-4124-8da0-f9c1ac695ac6] Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+2018-08-26T16:41:42.650571+00:00 heroku[router]: at=info method=GET path="/users/sign_up" host=grammable-gillian.herokuapp.com request_id=0a01f070-16ee-4368-a948-758bfb2d9434 fwd="68.198.15.83" dyno=web.1 connect=0ms service=16ms status=200 bytes=2564 protocol=https
+2018-08-26T16:41:42.633218+00:00 app[web.1]: I, [2018-08-26T16:41:42.633111 #4]  INFO -- : [0a01f070-16ee-4368-a948-758bfb2d9434] Started GET "/users/sign_up" for 68.198.15.83 at 2018-08-26 16:41:42 +0000
+2018-08-26T16:41:42.635259+00:00 app[web.1]: I, [2018-08-26T16:41:42.635182 #4]  INFO -- : [0a01f070-16ee-4368-a948-758bfb2d9434] Processing by Devise::RegistrationsController#new as HTML
+2018-08-26T16:41:42.639524+00:00 app[web.1]: I, [2018-08-26T16:41:42.639422 #4]  INFO -- : [0a01f070-16ee-4368-a948-758bfb2d9434]   Rendering vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app/views/devise/registrations/new.html.erb within layouts/application
+2018-08-26T16:41:42.644249+00:00 app[web.1]: I, [2018-08-26T16:41:42.644142 #4]  INFO -- : [0a01f070-16ee-4368-a948-758bfb2d9434]   Rendered vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app/views/devise/shared/_links.html.erb (0.6ms)
+2018-08-26T16:41:42.644414+00:00 app[web.1]: I, [2018-08-26T16:41:42.644324 #4]  INFO -- : [0a01f070-16ee-4368-a948-758bfb2d9434]   Rendered vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app/views/devise/registrations/new.html.erb within layouts/application (4.7ms)
+2018-08-26T16:41:42.646098+00:00 app[web.1]: I, [2018-08-26T16:41:42.646008 #4]  INFO -- : [0a01f070-16ee-4368-a948-758bfb2d9434] Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+2018-08-26T16:41:45.228549+00:00 heroku[router]: at=info method=GET path="/users/sign_in" host=grammable-gillian.herokuapp.com request_id=0528f9fb-81ed-4214-9996-7753c6827a6f fwd="68.198.15.83" dyno=web.1 connect=0ms service=26ms status=200 bytes=2595 protocol=https
+2018-08-26T16:41:45.207506+00:00 app[web.1]: I, [2018-08-26T16:41:45.207372 #4]  INFO -- : [0528f9fb-81ed-4214-9996-7753c6827a6f] Started GET "/users/sign_in" for 68.198.15.83 at 2018-08-26 16:41:45 +0000
+2018-08-26T16:41:45.208806+00:00 app[web.1]: I, [2018-08-26T16:41:45.208712 #4]  INFO -- : [0528f9fb-81ed-4214-9996-7753c6827a6f] Processing by Devise::SessionsController#new as HTML
+2018-08-26T16:41:45.213052+00:00 app[web.1]: I, [2018-08-26T16:41:45.212907 #4]  INFO -- : [0528f9fb-81ed-4214-9996-7753c6827a6f]   Rendering vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app/views/devise/sessions/new.html.erb within layouts/application
+2018-08-26T16:41:45.218257+00:00 app[web.1]: I, [2018-08-26T16:41:45.218127 #4]  INFO -- : [0528f9fb-81ed-4214-9996-7753c6827a6f]   Rendered vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app/views/devise/shared/_links.html.erb (0.5ms)
+2018-08-26T16:41:45.218405+00:00 app[web.1]: I, [2018-08-26T16:41:45.218319 #4]  INFO -- : [0528f9fb-81ed-4214-9996-7753c6827a6f]   Rendered vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app/views/devise/sessions/new.html.erb within layouts/application (5.2ms)
+2018-08-26T16:41:45.224293+00:00 app[web.1]: I, [2018-08-26T16:41:45.224184 #4]  INFO -- : [0528f9fb-81ed-4214-9996-7753c6827a6f] Completed 200 OK in 15ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+2018-08-26T16:41:51.007251+00:00 app[web.1]: I, [2018-08-26T16:41:51.007088 #4]  INFO -- : [7f614489-9286-4b75-b064-f12080c8e02a] Started GET "/users/password/new" for 68.198.15.83 at 2018-08-26 16:41:51 +0000
+2018-08-26T16:41:51.009302+00:00 app[web.1]: I, [2018-08-26T16:41:51.009225 #4]  INFO -- : [7f614489-9286-4b75-b064-f12080c8e02a] Processing by Devise::PasswordsController#new as HTML
+2018-08-26T16:41:51.023970+00:00 app[web.1]: I, [2018-08-26T16:41:51.018322 #4]  INFO -- : [7f614489-9286-4b75-b064-f12080c8e02a]   Rendering vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app/views/devise/passwords/new.html.erb within layouts/application
+2018-08-26T16:41:51.028496+00:00 app[web.1]: I, [2018-08-26T16:41:51.028337 #4]  INFO -- : [7f614489-9286-4b75-b064-f12080c8e02a]   Rendered vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app/views/devise/shared/_links.html.erb (0.6ms)
+2018-08-26T16:41:51.028598+00:00 app[web.1]: I, [2018-08-26T16:41:51.028512 #4]  INFO -- : [7f614489-9286-4b75-b064-f12080c8e02a]   Rendered vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app/views/devise/passwords/new.html.erb within layouts/application (4.5ms)
+2018-08-26T16:41:51.042667+00:00 app[web.1]: I, [2018-08-26T16:41:51.042466 #4]  INFO -- : [7f614489-9286-4b75-b064-f12080c8e02a] Completed 200 OK in 21ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+2018-08-26T16:41:51.044841+00:00 heroku[router]: at=info method=GET path="/users/password/new" host=grammable-gillian.herokuapp.com request_id=7f614489-9286-4b75-b064-f12080c8e02a fwd="68.198.15.83" dyno=web.1 connect=0ms service=44ms status=200 bytes=2225 protocol=https
+2018-08-26T16:41:56.384012+00:00 heroku[router]: at=info method=GET path="/users/sign_in" host=grammable-gillian.herokuapp.com request_id=e6dd9920-0379-441b-85df-70ef822bb88f fwd="68.198.15.83" dyno=web.1 connect=0ms service=26ms status=200 bytes=2595 protocol=https
+2018-08-26T16:41:56.360227+00:00 app[web.1]: I, [2018-08-26T16:41:56.360101 #4]  INFO -- : [e6dd9920-0379-441b-85df-70ef822bb88f] Started GET "/users/sign_in" for 68.198.15.83 at 2018-08-26 16:41:56 +0000
+2018-08-26T16:41:56.361743+00:00 app[web.1]: I, [2018-08-26T16:41:56.361652 #4]  INFO -- : [e6dd9920-0379-441b-85df-70ef822bb88f] Processing by Devise::SessionsController#new as HTML
+2018-08-26T16:41:56.368817+00:00 app[web.1]: I, [2018-08-26T16:41:56.368704 #4]  INFO -- : [e6dd9920-0379-441b-85df-70ef822bb88f]   Rendering vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app/views/devise/sessions/new.html.erb within layouts/application
+2018-08-26T16:41:56.377852+00:00 app[web.1]: I, [2018-08-26T16:41:56.377711 #4]  INFO -- : [e6dd9920-0379-441b-85df-70ef822bb88f]   Rendered vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app/views/devise/shared/_links.html.erb (0.5ms)
+2018-08-26T16:41:56.378008+00:00 app[web.1]: I, [2018-08-26T16:41:56.377917 #4]  INFO -- : [e6dd9920-0379-441b-85df-70ef822bb88f]   Rendered vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app/views/devise/sessions/new.html.erb within layouts/application (9.0ms)
+2018-08-26T16:41:56.380499+00:00 app[web.1]: I, [2018-08-26T16:41:56.380403 #4]  INFO -- : [e6dd9920-0379-441b-85df-70ef822bb88f] Completed 200 OK in 19ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+2018-08-26T16:43:09.639902+00:00 heroku[router]: at=info method=GET path="/users/sign_in" host=grammable-gillian.herokuapp.com request_id=e14e76c9-6d27-4dc4-93f8-04969302c916 fwd="209.87.212.214" dyno=web.1 connect=0ms service=24ms status=200 bytes=2595 protocol=https
+2018-08-26T16:43:09.620180+00:00 app[web.1]: I, [2018-08-26T16:43:09.620059 #4]  INFO -- : [e14e76c9-6d27-4dc4-93f8-04969302c916] Started GET "/users/sign_in" for 209.87.212.214 at 2018-08-26 16:43:09 +0000
+2018-08-26T16:43:09.621951+00:00 app[web.1]: I, [2018-08-26T16:43:09.621873 #4]  INFO -- : [e14e76c9-6d27-4dc4-93f8-04969302c916] Processing by Devise::SessionsController#new as HTML
+2018-08-26T16:43:09.624507+00:00 app[web.1]: I, [2018-08-26T16:43:09.624428 #4]  INFO -- : [e14e76c9-6d27-4dc4-93f8-04969302c916]   Rendering vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app/views/devise/sessions/new.html.erb within layouts/application
+2018-08-26T16:43:09.634366+00:00 app[web.1]: I, [2018-08-26T16:43:09.634271 #4]  INFO -- : [e14e76c9-6d27-4dc4-93f8-04969302c916]   Rendered vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app/views/devise/shared/_links.html.erb (0.4ms)
+2018-08-26T16:43:09.634571+00:00 app[web.1]: I, [2018-08-26T16:43:09.634507 #4]  INFO -- : [e14e76c9-6d27-4dc4-93f8-04969302c916]   Rendered vendor/bundle/ruby/2.4.0/gems/devise-4.5.0/app/views/devise/sessions/new.html.erb within layouts/application (9.9ms)
+2018-08-26T16:43:09.636739+00:00 app[web.1]: I, [2018-08-26T16:43:09.636669 #4]  INFO -- : [e14e76c9-6d27-4dc4-93f8-04969302c916] Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+2018-08-26T17:18:49.632400+00:00 heroku[web.1]: Idling
+2018-08-26T17:18:49.633003+00:00 heroku[web.1]: State changed from up to down
+2018-08-26T17:18:50.557298+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-08-26T17:18:50.572975+00:00 app[web.1]: - Gracefully stopping, waiting for requests to finish
+2018-08-26T17:18:50.580131+00:00 app[web.1]: === puma shutdown: 2018-08-26 17:18:50 +0000 ===
+2018-08-26T17:18:50.580141+00:00 app[web.1]: - Goodbye!
+2018-08-26T17:18:50.580307+00:00 app[web.1]: Exiting
+2018-08-26T17:18:50.714454+00:00 heroku[web.1]: Process exited with status 143
+2018-08-27T19:02:44.500684+00:00 app[api]: Starting process with command `rails db:migrate` by user gillybops@optonline.net
+2018-08-27T19:03:05.852821+00:00 heroku[run.6353]: State changed from starting to up
+2018-08-27T19:03:05.818242+00:00 heroku[run.6353]: Awaiting client
+2018-08-27T19:03:05.857685+00:00 heroku[run.6353]: Starting process with command `rails db:migrate`
+2018-08-27T19:03:14.081811+00:00 heroku[run.6353]: Process exited with status 0
+2018-08-27T19:03:14.449656+00:00 heroku[run.6353]: State changed from up to complete
+2018-08-27T19:03:30.000000+00:00 app[api]: Build started by user gillybops@optonline.net
+2018-08-27T19:03:36.000000+00:00 app[api]: Build failed -- check your build logs
+2018-08-27T19:05:54.221635+00:00 heroku[web.1]: State changed from down to starting
+2018-08-27T19:06:01.806594+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 36455 -e production`
+2018-08-27T19:06:06.000000+00:00 app[api]: Build started by user gillybops@optonline.net
+2018-08-27T19:06:12.629492+00:00 app[web.1]: => Booting Puma
+2018-08-27T19:06:12.629552+00:00 app[web.1]: => Rails 5.1.6 application starting in production 
+2018-08-27T19:06:12.629556+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2018-08-27T19:06:12.629671+00:00 app[web.1]: Puma starting in single mode...
+2018-08-27T19:06:12.629787+00:00 app[web.1]: * Version 3.12.0 (ruby 2.4.4-p296), codename: Llamas in Pajamas
+2018-08-27T19:06:12.629888+00:00 app[web.1]: * Min threads: 5, max threads: 5
+2018-08-27T19:06:12.629990+00:00 app[web.1]: * Environment: production
+2018-08-27T19:06:12.630248+00:00 app[web.1]: * Listening on tcp://0.0.0.0:36455
+2018-08-27T19:06:12.633681+00:00 app[web.1]: Use Ctrl-C to stop
+2018-08-27T19:06:13.300908+00:00 heroku[web.1]: State changed from starting to up
+2018-08-27T19:06:13.000000+00:00 app[api]: Build failed -- check your build logs
+2018-08-27T19:07:47.944762+00:00 heroku[web.1]: Restarting
+2018-08-27T19:07:47.957494+00:00 heroku[web.1]: State changed from up to starting
+2018-08-27T19:07:49.485293+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-08-27T19:07:49.506292+00:00 app[web.1]: - Gracefully stopping, waiting for requests to finish
+2018-08-27T19:07:49.534783+00:00 app[web.1]: === puma shutdown: 2018-08-27 19:07:49 +0000 ===
+2018-08-27T19:07:49.534867+00:00 app[web.1]: - Goodbye!
+2018-08-27T19:07:49.535095+00:00 app[web.1]: Exiting
+2018-08-27T19:07:49.625606+00:00 heroku[web.1]: Process exited with status 143
+2018-08-27T19:07:52.757046+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 5691 -e production`
+2018-08-27T19:07:59.686242+00:00 heroku[web.1]: State changed from starting to up
+2018-08-27T19:07:59.391255+00:00 app[web.1]: => Booting Puma
+2018-08-27T19:07:59.391281+00:00 app[web.1]: => Rails 5.1.6 application starting in production 
+2018-08-27T19:07:59.391283+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2018-08-27T19:07:59.391289+00:00 app[web.1]: Puma starting in single mode...
+2018-08-27T19:07:59.391298+00:00 app[web.1]: * Version 3.12.0 (ruby 2.4.4-p296), codename: Llamas in Pajamas
+2018-08-27T19:07:59.391306+00:00 app[web.1]: * Min threads: 5, max threads: 5
+2018-08-27T19:07:59.391308+00:00 app[web.1]: * Environment: production
+2018-08-27T19:07:59.391406+00:00 app[web.1]: * Listening on tcp://0.0.0.0:5691
+2018-08-27T19:07:59.391846+00:00 app[web.1]: Use Ctrl-C to stop
+2018-08-27T19:40:52.854009+00:00 heroku[web.1]: Idling
+2018-08-27T19:40:52.854593+00:00 heroku[web.1]: State changed from up to down
+2018-08-27T19:40:54.191310+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-08-27T19:40:54.209363+00:00 app[web.1]: - Gracefully stopping, waiting for requests to finish
+2018-08-27T19:40:54.219130+00:00 app[web.1]: === puma shutdown: 2018-08-27 19:40:54 +0000 ===
+2018-08-27T19:40:54.219175+00:00 app[web.1]: - Goodbye!
+2018-08-27T19:40:54.219370+00:00 app[web.1]: Exiting
+2018-08-27T19:40:54.423130+00:00 heroku[web.1]: Process exited with status 143
