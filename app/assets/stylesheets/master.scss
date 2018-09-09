@@ -1,6 +1,7 @@
 @import "bootstrap";
+@import "bootstrap-sprockets";
 @import "font-awesome";
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+/* @import url('https://fonts.googleapis.com/css?family=Great+Vibes'); */
 
 body {
   background-color: #fafafa;
@@ -17,9 +18,9 @@ input {
 }
 
 .brand {
-  color: #3DA506;
+  color: #125688;
   font-size: 30px;
-  font-family: 'great_vibesregular', sans-serif;
+  font-family: 'Pacifico', cursive; 
 }
 
 .card {
@@ -40,6 +41,7 @@ input {
   padding: 20px;
 }
 
+/*
 .comment {
   font-size: 16px;
   margin-top: 5px;
@@ -55,6 +57,7 @@ input {
   font-size: 18px;
 }
 
+*/
 .gram-actions a {
   font-weight: bold;
   font-size: 16px;
@@ -88,11 +91,13 @@ input {
   margin-top: 10px;
 }
 
+/*
 .navbar-inverse .navbar-brand {
   color: #3DA506;
   font-family: 'Great Vibes', cursive;
 }
 
+*/
 .top-nav {
   background-color: white;
   border-bottom-color: #edeeee;

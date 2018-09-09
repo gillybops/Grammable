@@ -1,9 +1,8 @@
 require 'rails_helper'
 
-
 RSpec.describe GramsController, type: :controller do
   describe "grams#destroy action" do
-    it "shouldn't allow users who didn't create the gram to destroy it" do
+    it "shouldn't allow users who didn't create a gram to destroy it" do
       gram = FactoryBot.create(:gram)
       user = FactoryBot.create(:user)
       sign_in user
@@ -96,7 +95,6 @@ RSpec.describe GramsController, type: :controller do
     it "should successfully show the edit form if the gram is found" do
       gram = FactoryBot.create(:gram)
       sign_in gram.user
-
       get :edit, params: { id: gram.id }
       expect(response).to have_http_status(:success)
     end
@@ -104,8 +102,7 @@ RSpec.describe GramsController, type: :controller do
     it "should return a 404 error if the gram is not found" do
       user = FactoryBot.create(:user)
       sign_in user
-
-      get :edit, params: { id: 'SWAG' }
+      get :edit, params: { id: 'TACOCAT' }
       expect(response).to have_http_status(:not_found)
     end
   end
@@ -180,8 +177,8 @@ RSpec.describe GramsController, type: :controller do
       gram_count = Gram.count
       post :create, params: { gram: { message: '' } }
       expect(response).to have_http_status(:unprocessable_entity)
-      expect(gram_count).to eq Gram.count 
+      expect(Gram.count).to eq 0
+#      expect(gram_count).to eq Gram.count 
     end
   end
-
 end
