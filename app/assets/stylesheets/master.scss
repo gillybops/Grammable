@@ -1,10 +1,9 @@
 @import "bootstrap";
-@import "bootstrap-sprockets";
 @import "font-awesome";
-/* @import url('https://fonts.googleapis.com/css?family=Great+Vibes'); */
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 
 body {
-  background-color: #fafafa;
+  background-color: grey;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -18,9 +17,9 @@ input {
 }
 
 .brand {
-  color: #125688;
+  color: #3DA506;
   font-size: 30px;
-  font-family: 'Pacifico', cursive; 
+  font-family: 'Great Vibes', cursive; 
 }
 
 .card {
@@ -41,7 +40,6 @@ input {
   padding: 20px;
 }
 
-/*
 .comment {
   font-size: 16px;
   margin-top: 5px;
@@ -57,7 +55,6 @@ input {
   font-size: 18px;
 }
 
-*/
 .gram-actions a {
   font-weight: bold;
   font-size: 16px;
@@ -82,12 +79,26 @@ input {
   line-height: 44px;
 }
 
+.jmflag {
+    width: 125px;
+    margin:1rem auto;
+    position: relative;
+}
+.text-on-flag  p{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 0;
+    padding:1rem;
+    transform:translateY(-50%);
+}
+
 .my-btn {
-  background-color: #125688;
+  background-color: black;
   width: 100%;
   border: none;
   font-size: 24px;
-  color: white;
+  color: #3DA506;
   margin-top: 10px;
 }
 
@@ -99,7 +110,7 @@ input {
 
 */
 .top-nav {
-  background-color: white;
+  background-color: black;
   border-bottom-color: #edeeee;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -109,7 +120,7 @@ input {
 
 .top-nav .add a {
   font-weight: bold;
-  color: #125688;
+  color: #3DA506;
   font-size: 16px;
   padding-left: 8px;
 }
