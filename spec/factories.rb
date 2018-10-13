@@ -4,7 +4,7 @@ FactoryBot.define do
       "dummyEmail#{n}@gmail.com"
     end
     password "secretPassword"
-    password_confirmation "secretPassword"
+    password_confirmation { "secretPassword" }
   end
 
   factory :gram do
